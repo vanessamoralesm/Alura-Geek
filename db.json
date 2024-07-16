@@ -1,0 +1,52 @@
+{
+  "productos": [
+    {
+      "modelo": "CHICIRISwebc6u0rkd-11",
+      "precio": "$1300",
+      "imagen": "https://m.media-amazon.com/images/I/61ANS9vkQYL._AC_SY450_.jpg",
+      "id": "1"
+    },
+    {
+      "modelo": "HP Victus 15-FA0032DX",
+      "precio": "$1600",
+      "imagen": "https://in-files.apjonlinecdn.com/landingpages/content-pages/visid-rich-content/victus-by-hp-15-gaming-laptop/images/w100_product_highlight_v1.png",
+      "id": "3"
+    },
+    {
+      "modelo": "HP Laptop 14-dq2536la",
+      "precio": "$800",
+      "imagen": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07964208.png",
+      "id": "4"
+    },
+    {
+      "modelo": "NOTEBOOK GATEWAY 14.1",
+      "precio": "$900",
+      "imagen": "https://pcmatplus.com/wp-content/uploads/2023/05/GWTC71427-BK-1.png",
+      "id": "5"
+    },
+    {
+      "modelo": "Notebook Samsung Galaxy Book3 15.6",
+      "precio": "$1500",
+      "imagen": "https://multipoint.com.ar/Image/0/700_700-Samsung-124379827-ar-galaxy-book3-156-inch-int-np750xfga-471551-np750xfg-kb3ar-537506069--Downl-zoom.png",
+      "id": "7"
+    },
+    {
+      "id": "b7b4",
+      "modelo": "hp",
+      "precio": "233",
+      "imagen": "https://cdn.thewirecutter.com/wp-content/media/2023/06/bestlaptops-2048px-9765.jpg?auto=webp&quality=75&width=1024"
+    },
+    {
+      "id": "008f",
+      "modelo": "hp",
+      "precio": "3446",
+      "imagen": "https://cdnprod.mafretailproxy.com/sys-master-root/hab/h4d/49248251969566/480Wx480H_1939993_1.jpg"
+    },
+    {
+      "id": "ea96",
+      "modelo": "",
+      "precio": "",
+      "imagen": ""
+    }
+  ]
+}

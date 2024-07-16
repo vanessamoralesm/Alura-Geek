@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
+    <title>Alura Geek</title>
+</head>
+<body class="bodyy">
+
+    <header class="header">
+        <img src="./iconos/logo.png" alt="logo">
+        <h1>Laptops-Alura Geek</h1>
+    </header>
+    
+    <main class="main-container">
+        <section>
+            <h1>Mis Productos:</h1>
+            <div data-product class="products-container">
+                <!-- Aqui se renderizaran las cards -->
+            </div >
+        </section>
+
+        <!-- Formulario -->
+        <section class="section2">
+            <h1>Agregar un producto:</h1>
+
+            <form class="formulario" data-formulario>
+                <fieldset class="formulario-laptop">
+                    <input id="modelo-laptop" class="input-modelo" placeholder="Modelo de Laptop" type="text" data-modelo />
+                </fieldset>
+                <fieldset class="formulario-laptop">
+                    <input id="precio-laptop" class="input-precio" placeholder="Precio de Laptop" type="text" data-precio />
+                </fieldset>
+                <fieldset class="formulario-laptop">
+                    <input id="imagen-laptop" class="input-imagen" placeholder="URL de la imagen" type="text" data-imagen />
+                </fieldset>
+                <div class="botones">
+                    <button type="submit" class="btn btn-success">Enviar</button>
+                    <button type="submit" class="btn btn-danger">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        
+        <div class="container-footer">
+            <div class="redes_footer">
+                <h4>Redes Sociales</h4>
+                <div class="enlaces_redes">
+                  <a href="https://www.facebook.com/auxiliadoravanessa.moralesmoreno.5" target="_blank" rel="nofollow noreferrer noopener"> <img src="./iconos/facebook.svg" alt="facebook"></a>
+                  <a href="https://www.instagram.com/auxiliadoravanessamorales/" target="_blank" rel="nofollow noreferrer noopener"> <img src="./iconos/instagram.png" alt="instagram"></a>
+                  <a href="https://www.linkedin.com/in/auxiliadora-vanessa-morales-moreno-7597a3300/" target="_blank" rel="nofollow noreferrer noopener" > <img src="./iconos/linkedin.svg" alt="linkedin"></a>
+                  <a href="https://github.com/vanessamoralesm" target="_blank" rel="nofollow noreferrer noopener"><img src="./iconos/github.svg" alt="GitHub"></a>
+                </div>
+            </div>
+    
+            <div class="footer-logo">
+                <h3>Alura Geek</h3>
+                <img src="./iconos/logo.png" alt="logo">
+            </div>
+        </div>
+    
+        <div class="Copyright">
+          <h3>Copyright © 2024 Todos los derechos reservados.</h3>
+        </div>
+    </footer>
+    
+    <script type="module" src="js/controles/main.js"></script>
+</body>
+</html>
